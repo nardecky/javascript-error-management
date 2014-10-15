@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<!-- Thanks to Paul Hayes for his cube 3d code. -->
+<!-- Article: http://www.paulrhayes.com/2009-07/animated-css3-cube-interface-using-3d-transforms/ -->
+<!-- Demo: http://www.paulrhayes.com/experiments/cube-3d/ -->
+<meta charset="UTF-8" />
+<title>Question Reality</title>
+
+<link media="all" type="text/css" rel="stylesheet" href="css/cube.css">
+<link media="all" type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="css/about.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="js/cube.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <!--  <a class="navbar-brand">CSE135(group 13)</a> -->
+      <a class="navbar-brand" style="float:right;" href="index.php">Back To Application</a>
+    </div>
+  </div>
+</nav>
+<div class="ex-cube">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div id="cube" class="cube">
+          <div class="face one">
+            <img class="cubeimg" src="images/Eric1.jpg" alt="images/no.jpg">
+          </div>
+          <div class="face two">
+            <p class="team-name">
+            Question Reality
+            </p>
+          </div>
+          <div class="face three">
+            <img class="cubeimg" src="images/Andrew.jpg" alt="images/no.jpg">
+          </div>
+          <div class="face four">
+            <img class="cubeimg" src="images/Nick.jpg" alt="images/no.jpg">
+          </div>
+          <div class="face five">
+            <img class="cubeimg" src="images/Freya.jpg" alt="images/no.jpg">
+          </div>
+          <div class="face six">
+            <img class="cubeimg" src="images/eduardo.jpg" alt="images/no.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <a class="thumbnail col-md-2" id="team"><img class="img-thumbnail img-responsive" src="images/CS.jpg" alt="images/no_thumbnail.jpg"></a>
+          <a class="thumbnail col-md-2" id="eduardo"><img  class="img-thumbnail img-responsive" src="images/eduardo_thumbnail.jpg"  alt="images/no_thumbnail.jpg"></a>
+          <a class="thumbnail col-md-2" id="andrew"><img  class="img-thumbnail img-responsive" src="images/Andrew.jpg"  alt="images/no_thumbnail.jpg"></a>
+          <a class="thumbnail col-md-2" id="freya"><img  class="img-thumbnail img-responsive" src="images/Freya2.jpg"  alt="images/no_thumbnail.jpg"></a>
+          <a class="thumbnail col-md-2" id="nick"><img  class="img-thumbnail" src="images/Nick21.jpg"  alt="images/no_thumbnail.jpg"></a>
+          <a class="thumbnail col-md-2" id="eric"><img  class="img-thumbnail" src="images/Eric1.jpg"  alt="images/no_thumbnail.jpg"></a>
+        </div>
+        <div class="jumbotron" id="bio">
+          <div id="team-bio" >
+            <h2> Question Reality</h2>
+            <p class="text-justified">
+            We are group 13, and we were all assigned together randomly. We like computers :) . </p>
+          </div>
+          <div id="eduardo-bio" class="hidden">
+            <h2> Eduardo Luna </h2>
+            <p class="text-justified">
+            Email: edluna@ucsd.edu 
+			</p>
+			<p>
+			A computer science major graduating in 2014 with an interest in web development and mobile app development. This is my last class as an undergrad!
+            </p>
+          </div>
+          <div id="nick-bio" class="hidden">
+            <h2> Nick Ardecky </h2>
+            <p class="text-justified">
+             Email: nardecky@ucsd.edu
+			 </p>	
+			 <p>
+			 My name is Nick Ardecky and UCSD gave me the name nardecky. I'm a San Diego native transfer student going
+             into my final year . I enjoy web development and am interested in the server side aspect.<br>
+            </p>
+          </div>
+          <div id="freya-bio" class="hidden">
+            <h2> Wenjing Freya Fang </h2>
+            <p class="text-justified">
+            Email: w3fang@ucsd.edu
+			</p>
+			<p>
+			MY name is Freya Wenjing Fang. I am an incoming senior at UCSD. I am interested in web development and mobile programming stuff.
+            </p>
+          </div>
+          <div id="eric-bio" class="hidden">
+            <h2> Eric Fakhourian</h2>
+            <p class="text-justified">
+            Email: efakhour@ucsd.edu
+			<p/>
+			<p>
+			My name is Eric Fakhourian, I'm transfer student going into senior year. I am Interest in android programming. I am Soccer player
+            </p>
+          </div>
+          <div id="andrew-bio" class="hidden">
+            <h2> Andrew Luu </h2>
+            <p class="text-justified">
+			Email: a9luu@ucsd.edu
+			</p>
+			<p>
+             I don't have much server experience but will still try to contribute as much as I can to the team.<br>
+            
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
